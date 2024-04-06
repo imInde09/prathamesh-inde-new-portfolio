@@ -28,7 +28,7 @@ Exemplo: https://graph.facebook.com/zenorocha
 ```json
 {
   "id": "1021864713",
-  "name": "Zeno Rocha",
+  "name": "Prathamesh Inde",
   "link": "http://www.facebook.com/zenorocha",
   "username": "zenorocha",
   "gender": "male",
@@ -59,7 +59,7 @@ Exemplo: http://vimeo.com/api/v2/zenorocha/info.json
 ```json
 {
   "id":"6796565",
-  "display_name":"Zeno Rocha",
+  "display_name":"Prathamesh Inde",
   "location":"Rio de Janeiro",
   "url":"https://zenorocha.com",
   "profile_url":"http://vimeo.com/zenorocha",
