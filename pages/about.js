@@ -17,7 +17,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Prathamesh Inde',
     description:
-      "Prathamesh Inde is a Brazilian creator and programmer. He currently lives in San Francisco, California, where he's the Founder & CEO at Resend. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
+      "Prathamesh Inde is a Indian Cloud Engineer and programmer. He's obsessed with developer experience and creating content for the web.",
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/about-bw.jpg',
     primaryColor: 'pink',
@@ -41,7 +41,7 @@ function About(props) {
         <Section>
           <Image
             alt="Zeno"
-            src="/static/images/zeno-bw.jpg"
+            src="/static/images/prathamesh-inde.jpg"
             width="336"
             height="336"
             placeholder="blur"
@@ -56,22 +56,23 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Prathamesh Inde</strong>
-            <Pronunciation />
-            I started as a software engineer back in 2009, working with Flash.
+            <strong>Hey, I'm Prathamesh Inde, </strong>
+            {/* <Pronunciation /> */}
+            I started as a Front-End Developer back in 2021, working with Flash.
           </Paragraph>
           <Paragraph>
-            I'm the <strong>Founder & CEO</strong> at
-            Resend. Before that, I was a VP of Developer Experience at WorkOS and CPO at Liferay Cloud. I'm originally
-            from Brazil and now living in{' '}
+            I'm the <strong>Framework Engineer</strong> at
+            Quantiphi. Before that, I was a Software Devloper Intern Cancard and UI/UX Designer at Ambitech Healthcare. I'm originally
+            from India
+            {/* and now living in{' '}
             <strong>San Francisco, California</strong> with my amazing wife and
-            beautiful daughter.
+            beautiful daughter. */}
           </Paragraph>
-          <Paragraph>
+          {/* <Paragraph>
             <strong>I love dark mode</strong>, open source, and side projects.
             When I'm not working, I like running, watching movies, and{' '}
             <strong>eating cheese</strong>.
-          </Paragraph>
+          </Paragraph> */}
         </Section>
       </Container>
     )
@@ -106,7 +107,7 @@ function About(props) {
             as="a"
             download
             role="button"
-            href="/static/images/zeno.png"
+            href="/static/images/prathamesh-inde.jpg"
             style={btnStyle}
             onClick={downloadHeadshot}
             onMouseEnter={() => downloadRef.current?.play()}

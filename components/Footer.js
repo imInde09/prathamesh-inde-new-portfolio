@@ -10,24 +10,24 @@ export default function Footer() {
     },
     {
       title: 'Twitter',
-      url: 'https://twitter.com/zenorocha',
+      url: 'https://twitter.com/indeprathamesh',
       icon: 'ri-twitter-line',
     },
     {
       title: 'GitHub',
-      url: 'https://github.com/zenorocha',
+      url: 'https://github.com/imInde09',
       icon: 'ri-github-line',
     },
     {
       title: 'linkedin',
-      url: 'https://linkedin.com/in/zenorocha',
+      url: 'https://linkedin.com/in/prathameshinde',
       icon: 'ri-linkedin-line',
     },
-    {
-      title: 'Instagram',
-      url: 'https://instagram.com/zenorocha',
-      icon: 'ri-instagram-line',
-    },
+    // {
+    //   title: 'Instagram',
+    //   url: 'https://instagram.com/zenorocha',
+    //   icon: 'ri-instagram-line',
+    // },
   ]
 
   const renderAnchor = (link, index) => {
